@@ -1,14 +1,11 @@
-using Domain.Common;
+namespace Application.DTOs;
 
-namespace Domain.Entities;
-
-public class Product : BaseEntity
+public class ProductDto
 {
+    public Guid Id { get; set; }
     public string Name { get; set; } = string.Empty;
     public string SKU { get; set; } = string.Empty;
     public decimal Price { get; set; }
     public int StockQuantity { get; set; }
-
     public Guid StoreId { get; set; }
-    public Store Store { get; set; } = null!;
 }
