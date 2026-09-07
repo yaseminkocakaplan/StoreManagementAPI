@@ -13,5 +13,5 @@ public class StockTransfer : BaseEntity
 
     public TransferStatus Status { get; set; } = TransferStatus.Pending;
 
-    public ICollection<StockTransferItem> TransferItems { get; set; } = new List<StockTransferItem>();
+    public ICollection<StockTransferItem> Items { get; set; } = new List<StockTransferItem>();
 }
