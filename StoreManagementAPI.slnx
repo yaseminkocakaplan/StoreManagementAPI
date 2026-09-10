@@ -1,11 +1,7 @@
 <Solution>
   <Folder Name="/src/" />
-  <Folder Name="/src/Core/">
-    <Project Path="src/Core/StoreManagement.Application/StoreManagement.Application.csproj" />
-    <Project Path="src/Core/StoreManagement.Domain/StoreManagement.Domain.csproj" />
-  </Folder>
-  <Folder Name="/src/Infrastructure/">
-    <Project Path="src/Infrastructure/StoreManagement.API/StoreManagement.API.csproj" />
-    <Project Path="src/Infrastructure/StoreManagement.Infrastructure/StoreManagement.Infrastructure.csproj" />
-  </Folder>
+  <Project Path="src/StoreManagement.Application/StoreManagement.Application.csproj" />
+  <Project Path="src/StoreManagement.Domain/StoreManagement.Domain.csproj" />
+  <Project Path="src/StoreManagement.API/StoreManagement.API.csproj" />
+  <Project Path="src/StoreManagement.Infrastructure/StoreManagement.Infrastructure.csproj" />
 </Solution>
